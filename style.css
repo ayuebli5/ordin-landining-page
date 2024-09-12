@@ -1,0 +1,180 @@
+html,body{
+    background-color: #1F2937;
+    margin:0;
+    padding:0;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.nav{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon{
+    font: 20px sans-serif;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-wrap: wrap;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.heading-text{
+    width:30%;
+}
+
+.heading-img{
+    background-color: gray;
+    width:30%;
+}
+
+#btn{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 0.25cm;
+    width: 100px;
+    height: 30px;
+}
+
+.main{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 4cm;
+    margin: 1cm;
+    text-align: center;
+}
+
+.square{
+    width: 4cm;
+    height: 4cm;
+    border-radius: 1cm;
+}
+
+.qoute {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100px;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.qoute-container{
+    margin-right : 20%;
+    margin-left : 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#qoute-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+    text-wrap: wrap;
+    margin: 0;
+
+    
+}
+
+#author{
+    font: 25px Arial, sans-serif;
+    font-weight: 500;
+    align-self: flex-end;
+    margin-right: 5%;
+    margin-top: 2%;
+
+}
+
+.contact{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 200px;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 70%;
+    background-color: #3882f6;
+    border-radius: 0.2cm;
+    /* margin-right:10%;
+    margin-left:20%;
+    margin-top:10%;
+    margin-bottom:10%; */
+    align-items: center;
+    justify-content: stretch;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    /* padding-top: 0.5cm;
+    padding-bottom: 0.5cm; */
+}
+
+.contact-text{
+    flex:3;
+    margin: 0;
+    color: white;
+}
+
+.contact-btn-container{
+    flex:1;
+}
+
+#contact-bold{
+    font-weight: bold;
+    font-size: medium;
+}
+
+#contact-btn{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    padding-left: 0.5cm;
+}
+
+.footer{
+    color: white;
+    align-self: center;
+    font-weight: 100;
+}
